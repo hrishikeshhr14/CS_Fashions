@@ -13,15 +13,7 @@ function CollapsibleExample() {
           <Nav className="me-auto">
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/product">Product</Nav.Link>
-            <NavDropdown title="Products" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/Men">Men</NavDropdown.Item>
-              <NavDropdown.Item href="/Women">Women</NavDropdown.Item>
-              <NavDropdown.Item href="/Boys">Boys</NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-              <NavDropdown.Item href="/Girls">
-                Girls
-              </NavDropdown.Item>
-            </NavDropdown>
+           
           </Nav>
           <Nav>
             <Nav.Link href="/about">About Us</Nav.Link>
