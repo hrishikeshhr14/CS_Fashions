@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
 import Contact from "./pages/Contact"
+import { FooterContainer } from "./pages/footer"
 // import Footer from "./components/footer/index"
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
         </Routes>
         
       </div>
-      {/* <Footer/> */}
+      <FooterContainer/>
+      
      
     </>
   )
