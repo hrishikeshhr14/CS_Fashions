@@ -4,7 +4,7 @@ function ImageAndTextExample() {
   return (
     <>
       <Card>
-        <Card.Img variant="top" src="inb.png"/>
+        <Card.Img variant="top" src="m1.png"/>
         
       </Card>
       <br />

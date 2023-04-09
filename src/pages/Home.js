@@ -3,6 +3,7 @@ import Contact from "./Contact"
 import Product from "./Product"
 import Services from "./Services"
 import BorderExample from "../components/cards"
+import { FooterContainer } from "./footer"
 // import Footer from "../react-footer/Footer"
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
     <Product/>
     <Services/>
     <Contact/>
-    {/* <Footer/> */}
+    <FooterContainer/>
   </div>
   
 }

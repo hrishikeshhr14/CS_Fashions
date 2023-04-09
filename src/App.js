@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import { Route, Routes } from "react-router-dom"
 import Contact from "./pages/Contact"
-// import Footer from "./react-footer/Footer"
+// import Footer from "./components/footer/index"
 
 function App() {
   return (
@@ -18,10 +18,11 @@ function App() {
           <Route path="/product" element={<Product />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          
         </Routes>
+        
       </div>
       {/* <Footer/> */}
+     
     </>
   )
 }
