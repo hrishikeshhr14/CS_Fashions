@@ -1,4 +1,12 @@
+
+
 export default function Product() {
+  return <div>
+   
+   <carod/>
+    <></>
+   
+  </div>
   
-  return <h1>Product</h1>
+  
 }

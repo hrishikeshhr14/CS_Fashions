@@ -1,13 +1,11 @@
-
-.postname{
-    width: 300px;
-    margin:0px 25px 40px 25px;
-    color: black;
-    font-family: Varela Round;
-}
-.address{
-    width: 700px;
-    margin:0px 25px 40px 25px;
+@media (max-width: 768px) {
+    .address-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .address {
     color: red;
-    font-family: Varela Round;
-}
+  }
+  
