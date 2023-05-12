@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/navbar/Navbar"
 import Services from "./pages/Services"
 import Product from "./pages/Product"
 import Home from "./pages/Home"

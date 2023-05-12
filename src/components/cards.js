@@ -3,10 +3,12 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function BorderExample() {
   return (
+    
     <CardGroup>
       <Card>
-        <Card.Img variant="top" src="k.png" />
+        <Card.Img variant="top" src="d7.png" />
         <Card.Body>
+         <br></br>
           <Card.Title>KNITTING</Card.Title>
           <Card.Text>
             This is a wider card with supporting text below as a natural lead-in
