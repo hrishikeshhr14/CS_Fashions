@@ -1,13 +1,13 @@
-import Addres from "./address/Address";
+import Address from "./address/Address"
 
 
-export default function contact() {
-  return  <div>
-    <h1>ABOUT US</h1>
-    <hr></hr>
-  
-    <Addres/>
- 
-
+export default function Contact() {
+  return <div>
+   
+   <Address/>
+  <></>
+   
   </div>
+  
+  
 }
