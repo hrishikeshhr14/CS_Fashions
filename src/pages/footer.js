@@ -17,13 +17,7 @@ export function FooterContainer() {
               <Footer.Link href="#">Clients</Footer.Link>
               <Footer.Link href="#">Testimonials</Footer.Link>
             </Footer.Column>
-            <Footer.Column>
-              <Footer.Title>Contact Us</Footer.Title>
-              <Footer.Link href="#">United States</Footer.Link>
-              <Footer.Link href="#">United Kingdom</Footer.Link>
-              <Footer.Link href="#">Australia</Footer.Link>
-              <Footer.Link href="#">Support</Footer.Link>
-            </Footer.Column>
+            
             <Footer.Column>
               <Footer.Title>Social</Footer.Title>
               <Footer.Link>
@@ -32,12 +26,8 @@ export function FooterContainer() {
               <Footer.Link>
                 <Icon className="fab fa-instagram" /> Instagram
               </Footer.Link>
-              <Footer.Link>
-                <Icon className="fab fa-youtube" /> Youtube
-              </Footer.Link>
-              <Footer.Link>
-                <Icon className="fab fa-twitter" /> Twitter
-              </Footer.Link>
+             
+              
             </Footer.Column>
           </Footer.Row>
         </Footer.Wrapper>
