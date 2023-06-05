@@ -6,7 +6,8 @@ export const Container = styled.div`
   align-items: center;
   background-color: #202428;
   @media (max-width: 1000px) {
-    padding: 70px 30px;
+    text-align: center;
+    width:100%;
   }
 `;
 
