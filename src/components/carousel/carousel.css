@@ -1,6 +1,6 @@
 
   .custom-carousel {
-    width: auto; /* Set the desired width */
-    margin:  auto; /* Center the carousel horizontally */
+    width: 100%; /* Set the desired width */
+    margin:auto; /* Center the carousel horizontally */
   }
   
