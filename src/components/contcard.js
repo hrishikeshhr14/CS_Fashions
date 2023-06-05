@@ -8,7 +8,7 @@ function BorderExample() {
       {Array.from({ length: 4 }).map((_, idx) => (
         <Col>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="d6.png" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>

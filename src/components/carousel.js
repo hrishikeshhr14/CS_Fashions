@@ -1,6 +1,5 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap' 
-
 export default function carousel() {
   return (
     <div>
@@ -38,9 +37,7 @@ export default function carousel() {
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption> */}
       </Carousel.Item>
-    </Carousel>
-    
-    </div>
-   
+    </Carousel>    
+    </div>   
   )
 }
