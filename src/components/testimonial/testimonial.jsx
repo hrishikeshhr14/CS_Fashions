@@ -25,12 +25,12 @@ const TestimonialSection = () => {
     {
       name: 'Jane Smith',
       quote: 'I highly recommend this service.',
-      image: 'd6.png'
+      image: 'd4.png'
     },
     {
       name: 'Jane Smith',
       quote: 'I highly recommend this service.',
-      image: 'd6.png'
+      image: 'd4.png'
     },
     // Add more testimonials here
   ];
@@ -39,11 +39,16 @@ const TestimonialSection = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: getSlidesToShow(),
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 300, // Set autoplay speed in milliseconds
+    autoplay: true,
+    autoplaySpeed: 3000,
   };
+
+  function getSlidesToShow() {
+    const viewportWidth = window.innerWidth;
+    return viewportWidth < 768 ? 1 : 3;
+  }
 
   return (
     <div className="testimonial-section">
