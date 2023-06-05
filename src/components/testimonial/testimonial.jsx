@@ -8,29 +8,29 @@ import 'slick-carousel/slick/slick-theme.css';
 const TestimonialSection = () => {
   const testimonials = [
     {
-      name: 'John Doe',
+      name: 'Hrishikesh',
       quote: 'This product changed my life!',
-      image: 'd5.png'
+      image: 'latest.jpg'
     },
     {
       name: 'Jane Smith',
       quote: 'I highly recommend this service.',
+      image: 'd2.png'
+    },
+    {
+      name: 'Jane Smith',
+      quote: 'Its amazing.',
+      image: 'd1.png'
+    },
+    {
+      name: 'Jane Smith',
+      quote: '"Marvelous ',
       image: 'd6.png'
     },
     {
       name: 'Jane Smith',
-      quote: 'I highly recommend this service.',
-      image: 'd5.png'
-    },
-    {
-      name: 'Jane Smith',
-      quote: '"I highly recommend this service".',
-      image: 'd6.png'
-    },
-    {
-      name: 'Jane Smith',
-      quote: 'I highly recommend this service.',
-      image: 'd4.png'
+      quote: 'Beautiful',
+      image: 'abo.png'
     },
     // Add more testimonials here
   ];
