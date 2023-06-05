@@ -1,4 +1,4 @@
- import Carousel from "../components/carousel"
+ import Carousel from "../components/carousel/carousel"
  import TestimonialSection from"../components/testimonial/testimonial";
 // import Profilee from "../components/Tester/App";
 // import Profile from "../components/cardss";

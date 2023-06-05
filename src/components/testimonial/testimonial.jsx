@@ -20,12 +20,12 @@ const TestimonialSection = () => {
     {
       name: 'Jane Smith',
       quote: 'I highly recommend this service.',
-      image: 'd4.png'
+      image: 'd5.png'
     },
     {
       name: 'Jane Smith',
-      quote: 'I highly recommend this service.',
-      image: 'd4.png'
+      quote: '"I highly recommend this service".',
+      image: 'd6.png'
     },
     {
       name: 'Jane Smith',
@@ -47,7 +47,7 @@ const TestimonialSection = () => {
 
   function getSlidesToShow() {
     const viewportWidth = window.innerWidth;
-    return viewportWidth < 768 ? 1 : 3;
+    return viewportWidth < 768 ?1 : 3;
   }
 
   return (
