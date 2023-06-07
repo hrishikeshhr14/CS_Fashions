@@ -1,16 +1,16 @@
-import Boys from "../components/Products/Boys/testimonial";
+import Boys from "../components/Products/Boys/Boys";
 import Girls from "../components/Boys/testimonial";
-import TestimonialSection from "../components/Products/Mens/testimonial";
-import TestimonialSectionW from "../components/Products/Womens/testimonial";
+// import TestimonialSection from "../components/Products/Mens/testimonial";
+// import TestimonialSectionW from "../components/Products/Womens/testimonial";
 
 
 
 export default function Product() {
   return <div>
     <></>
-   <TestimonialSection/>
+   {/* <TestimonialSection/> */}
    <br></br>
-   <TestimonialSectionW/>
+   {/* <TestimonialSectionW/> */}
    <br></br>
   <Boys/>
    <br></br>

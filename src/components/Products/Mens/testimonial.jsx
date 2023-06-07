@@ -1,16 +1,16 @@
 import React from 'react';
 import Testimonial from './test';
-import "./teststyle.css";
+import "./Wstyle.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const TestimonialSection = () => {
-  const testimonials = [
+const Mens = () => {
+  const Mens = [
     {
       name: 'T shirt 1',
     
-      image: 'd6.png'
+      image: 'd5.png'
     },
     {
       name: 'Pant',
@@ -20,7 +20,7 @@ const TestimonialSection = () => {
     {
       name: 'Tshirt 3',
       
-      image: 'd6.png'
+      image: 'd5.png'
     },
     {
       name: 'T shirt 4',
@@ -30,7 +30,7 @@ const TestimonialSection = () => {
     {
       name: 't shirt 5',
     
-      image: 'd6.png'
+      image: 'd5.png'
     },
     {
       name: 'Tshirt 3',
@@ -65,7 +65,7 @@ const TestimonialSection = () => {
        <h1>MENS</h1>
       <Slider {...settings}>
        
-        {testimonials.map((testimonial, index) => (
+        {Mens.map((testimonial, index) => (
           <Testimonial
         
             key={index}
@@ -79,4 +79,4 @@ const TestimonialSection = () => {
   );
 };
 
-export default TestimonialSection;
+export default Mens;
