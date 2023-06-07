@@ -1,16 +1,16 @@
 import React from 'react';
-import Testimonial from './test';
-import "./teststyle.css";
+import Menss from './MMens';
+import "./Mstyle.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Girls = () => {
-  const testimonials = [
+const Mens = () => {
+  const mens = [
     {
       name: 'T shirt 1',
     
-      image: 'd6.png'
+      image: 'd5.png'
     },
     {
       name: 'Pant',
@@ -20,7 +20,7 @@ const Girls = () => {
     {
       name: 'Tshirt 3',
       
-      image: 'd6.png'
+      image: 'd5.png'
     },
     {
       name: 'T shirt 4',
@@ -30,10 +30,10 @@ const Girls = () => {
     {
       name: 't shirt 5',
     
-      image: 'd6.png'
+      image: 'd5.png'
     },
     {
-      name: 'Boys Tshirt 3',
+      name: 'Tshirt 3',
       
       image: 'd2.png'
     },
@@ -48,9 +48,9 @@ const Girls = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 600,
     slidesToShow: getSlidesToShow(),
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
   };
@@ -61,17 +61,17 @@ const Girls = () => {
   }
 
   return (
-    <div className="testimonial-section">
-       <h1>GIRLS</h1>
+    <div className="mens-section">
+       <h1>MENS</h1>
       <Slider {...settings}>
        
-        {testimonials.map((testimonial, index) => (
-          <Testimonial
+        {mens.map((mens, index) => (
+          <Menss
         
             key={index}
-            name={testimonial.name}
-            quote={testimonial.quote}
-            image={testimonial.image}
+            name={mens.name}
+            quote={mens.quote}
+            image={mens.image}
           />
         ))}
       </Slider>
@@ -79,4 +79,4 @@ const Girls = () => {
   );
 };
 
-export default Girls;
+export default Mens;

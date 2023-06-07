@@ -1,10 +1,10 @@
-import Address from "./address/Address"
-
+import Asddress from "./ContactPageC/address/Address"
+import "../pages/ContactPageC/contact.css";
 
 export default function Contact() {
-  return <div>
+  return <div className="addresscolor">
    <br></br> 
-  <Address/>
+  <Asddress/>
   <br></br>
   <br></br>
   <br></br>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Boys = ({ name, quote, image }) => {
+const Boyss = ({ name, quote, image }) => {
   return (
     <div className="boys">
       <img className="boys-image" src={image} alt={name} />
@@ -10,4 +10,4 @@ const Boys = ({ name, quote, image }) => {
   );
 };
 
-export default Boys;
+export default Boyss;

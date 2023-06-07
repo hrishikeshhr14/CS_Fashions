@@ -1,4 +1,4 @@
-.testimonial {
+.mens {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,22 +6,28 @@
     margin-bottom: 20px;
   }
   
-  .testimonial-image {
+  .mens-image {
     width: 200px;
     height: 300px;
     border-radius: 10%;
+    border-color:black;
+    border-style:ridge;
     object-fit: cover;
     margin-bottom: 10px;
   }
   
-  .testimonial-name {
+  .mens-name {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  .testimonial-quote {
+  /* .mens-quote {
     font-size: 14px;
     color: #666;
   }
-  
+   */
+   /* .mens-section{
+    background-color: rgb(195, 194, 193);
+  }
+   */

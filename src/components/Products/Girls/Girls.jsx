@@ -1,46 +1,46 @@
 import React from 'react';
-import Testimonial from './test';
-import "./Wstyle.css";
+import Girlss from './GGirls';
+import "./Gstyle.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const Mens = () => {
-  const Mens = [
+const Girls = () => {
+  const girls = [
     {
-      name: 'T shirt 1',
+      name: 'girls 1',
     
-      image: 'd5.png'
+      image: 'd3.png'
     },
     {
-      name: 'Pant',
+      name: 'girls',
       
       image: 'd2.png'
     },
     {
-      name: 'Tshirt 3',
+      name: 'girls 3',
       
-      image: 'd5.png'
+      image: 'd3.png'
     },
     {
-      name: 'T shirt 4',
-      
-      image: 'd2.png'
-    },
-    {
-      name: 't shirt 5',
-    
-      image: 'd5.png'
-    },
-    {
-      name: 'Tshirt 3',
+      name: 'girls 4',
       
       image: 'd2.png'
     },
     {
-      name: 't shirt 5',
+      name: 'girls 5',
     
-      image: 'd5.png'
+      image: 'd3.png'
+    },
+    {
+      name: 'girls 6',
+      
+      image: 'd2.png'
+    },
+    {
+      name: 'girls 7',
+    
+      image: 'd3.png'
     },
     // Add more testimonials here
   ];
@@ -50,7 +50,7 @@ const Mens = () => {
     infinite: true,
     speed: 500,
     slidesToShow: getSlidesToShow(),
-    slidesToScroll: 1,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
   };
@@ -62,16 +62,16 @@ const Mens = () => {
 
   return (
     <div className="testimonial-section">
-       <h1>MENS</h1>
+       <h1>GIRLS</h1>
       <Slider {...settings}>
        
-        {Mens.map((testimonial, index) => (
-          <Testimonial
+        {girls.map((girls, index) => (
+          <Girlss
         
             key={index}
-            name={testimonial.name}
-            quote={testimonial.quote}
-            image={testimonial.image}
+            name={girls.name}
+            quote={girls.quote}
+            image={girls.image}
           />
         ))}
       </Slider>
@@ -79,4 +79,4 @@ const Mens = () => {
   );
 };
 
-export default Mens;
+export default Girls;

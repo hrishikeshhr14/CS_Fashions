@@ -1,7 +1,8 @@
 import "./address.css";
 
-export default function Address() {
+export default function Asddress() {
   return (
+    <div className="addressya">
     <div className="container">
       <div className="row">
         <div className="col-sm-12 col-md-6">
@@ -46,6 +47,7 @@ export default function Address() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -50,7 +50,7 @@ const Boys = () => {
     infinite: true,
     speed: 600,
     slidesToShow: getSlidesToShow(),
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 3000,
   };

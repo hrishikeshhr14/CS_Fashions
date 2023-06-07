@@ -1,4 +1,4 @@
-.testimonial {
+.girls {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     margin-bottom: 20px;
   }
   
-  .testimonial-image {
+  .girls-image {
     width: 200px;
     height: 300px;
     border-radius: 10%;
@@ -14,13 +14,13 @@
     margin-bottom: 10px;
   }
   
-  .testimonial-name {
+  .girls-name {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  .testimonial-quote {
+  .girls-quote {
     font-size: 14px;
     color: #666;
   }
