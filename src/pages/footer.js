@@ -4,7 +4,9 @@ import Icon from '../components/icons';
 
 export function FooterContainer() {
   return (
-      
+      <div className="page-container">
+      <div className="content-wrap">
+  
       <Footer>
         <Footer.Wrapper>
           <Footer.Row>
@@ -29,6 +31,8 @@ export function FooterContainer() {
           </Footer.Row>
         </Footer.Wrapper>
       </Footer>
+    </div>
+    </div>
 
   );
 }
