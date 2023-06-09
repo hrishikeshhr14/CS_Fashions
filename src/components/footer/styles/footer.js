@@ -5,17 +5,17 @@ export const Container = styled.div`
   padding: 80px 60px;
   align-items: center;
   background-color: #202428;
-  @media (max-width: 1000px) {
+  @media (max-width: 768px) {
     text-align: center;
     width:100%;
   }
 `;
 
 export const Wrapper = styled.div`
-    display: flex;
+    display: auto;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 768px;
     margin: 0 auto;
     /* background: red; */
 `
@@ -44,13 +44,13 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-      color: #ff0000;
+      color: #cc0000;
       transition: 200ms ease-in;
   }
 `;
 
 export const Title = styled.p`
-  font-size: 24px;
+  font-size: 30px;
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
