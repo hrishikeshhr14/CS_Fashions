@@ -57,7 +57,7 @@ const Girls = () => {
 
   function getSlidesToShow() {
     const viewportWidth = window.innerWidth;
-    return viewportWidth < 768 ?1 : 5;
+    return viewportWidth < 768 ?2 : 5;
   }
 
   return (

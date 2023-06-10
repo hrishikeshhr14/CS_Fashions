@@ -10,14 +10,25 @@ import styled from 'styled-components';
 //     width:100%;
 //   }
 // `;
+// export const Container = styled.div`
+//   padding: 80px 60px;
+//   align-items: center;
+//   background-color: #202428;
+//   text-align: center; /* Center align text on mobile */
+  
+//   @media (max-width: 1000px) {
+//     padding: 80px 20px; /* Reduce horizontal padding on mobile */
+//   }
+// `;
 export const Container = styled.div`
   padding: 80px 60px;
   align-items: center;
   background-color: #202428;
-  text-align: center; /* Center align text on mobile */
+  text-align: center;
   
   @media (max-width: 768px) {
-    padding: 80px 20px; /* Reduce horizontal padding on mobile */
+    padding: 80px 20px;
+    width: 100%;
   }
 `;
 
