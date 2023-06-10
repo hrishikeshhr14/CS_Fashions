@@ -25,12 +25,14 @@ export const Container = styled.div`
   align-items: center;
   background-color: #202428;
   text-align: center;
-  
+
   @media (max-width: 768px) {
     padding: 80px 20px;
-    width: 100%;
+    width: calc(100% - 40px); /* Adjust the width to account for padding */
+    margin: 0 auto; /* Center align the container horizontally */
   }
 `;
+
 
 
 export const Wrapper = styled.div`
