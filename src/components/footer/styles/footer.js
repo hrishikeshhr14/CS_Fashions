@@ -1,15 +1,26 @@
 import styled from 'styled-components';
 
 
+// export const Container = styled.div`
+//   padding: 80px 60px;
+//   align-items: center;
+//   background-color: #202428;
+//   @media (max-width: 768px) {
+//     text-align: center;
+//     width:100%;
+//   }
+// `;
 export const Container = styled.div`
   padding: 80px 60px;
   align-items: center;
   background-color: #202428;
+  text-align: center; /* Center align text on mobile */
+  
   @media (max-width: 768px) {
-    text-align: center;
-    width:100%;
+    padding: 80px 20px; /* Reduce horizontal padding on mobile */
   }
 `;
+
 
 export const Wrapper = styled.div`
     display: auto;
