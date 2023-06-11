@@ -7,8 +7,8 @@
   }
   
   .mens-image {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 200px;
     border-radius: 10%;
     border-color:black;
     border-style:ridge;
@@ -27,7 +27,7 @@
     color: #666;
   }
    */
-   /* .mens-section{
+   .mens-section{
     background-color: rgb(195, 194, 193);
   }
-   */
+  

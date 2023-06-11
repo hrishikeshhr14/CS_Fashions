@@ -7,7 +7,7 @@
   }
   
   .girls-image {
-    width: 100px;
+    width: 150px;
     height: 200px;
     border-radius: 10%;
     object-fit: cover;
@@ -20,8 +20,11 @@
     margin-bottom: 5px;
   }
   
-  .girls-quote {
+  /* .girls-quote {
     font-size: 14px;
-    color: #666;
+    color: #c66aeb;
   }
-  
+   */
+   .girls-section{
+    background-color: pink;
+   }
