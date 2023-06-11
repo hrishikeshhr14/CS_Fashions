@@ -2,7 +2,7 @@
 import ImageAndTextExample from "../components/imagefor"
 // import GroupExample from "../components/ourproduct"
 import Produc from "./products/Product"
-import App from "../components/Timelime/Timeline";
+// import App from "../components/Timelime/Timeline";
 
 
 
@@ -15,7 +15,7 @@ const About = () => {
       {/* Your services content goes here */}
       <ImageAndTextExample />
       <Produc/>
-      <App/>
+      {/* <App/> */}
     </div>
   );
 };

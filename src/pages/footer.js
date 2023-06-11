@@ -6,6 +6,7 @@ export function FooterContainer() {
   return (
 
       <Footer>
+        <hr></hr>
         <br></br>
         <Footer.Wrapper>
           <Footer.Row>
@@ -24,10 +25,16 @@ export function FooterContainer() {
               <Footer.Link>
                 <Icon className="fab fa-instagram" /> Instagram
               </Footer.Link>
-
+              <Footer.Link>
+                <Icon className="fab fa-pinterest" /> Pinterest
+              </Footer.Link>
             </Footer.Column>
           </Footer.Row>
         </Footer.Wrapper>
+        <hr></hr>
+        Copyright © 2023 CS.FASHIONS All rights reserved.  |   designed by
+        <Footer.Link href="https://www.linkedin.com/in/hrishikesh1412"> hrishikesh</Footer.Link> 
+        <br></br>    
       </Footer>
 
   );

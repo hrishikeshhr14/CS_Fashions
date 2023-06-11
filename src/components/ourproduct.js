@@ -57,9 +57,6 @@ Garment dyeing<hr></hr>
         </Card.Text>
       </Card.ImgOverlay>
     </Card>
-
-      
-      
     </CardGroup>
   );
 }

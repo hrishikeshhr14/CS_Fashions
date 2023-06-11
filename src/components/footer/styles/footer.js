@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   align-items: center;
-  background-color: #202428;
+  margin: 0r%;
+  background-color: #F8F9FA;
   text-align: center;
   width: 100%; /* Set the container width to 100% */
 
   @media (max-width: 1000px) {
+    margin: 0rem;
     padding: 20px; /* Add padding to the container */
   }
 `;
@@ -37,7 +39,7 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #fff;
+  color: #333;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
@@ -50,7 +52,7 @@ export const Link = styled.a`
 
 export const Title = styled.p`
   font-size: 30px;
-  color: #fff;
+  color: #333;
   margin-bottom: 40px;
   font-weight: bold;
 `;

@@ -6,17 +6,17 @@ const Timeline = () => {
   const timelineData = [
     {
       date: '2010',
-      image: 'image1.jpg',
+      image: 'd1.png',
       description: 'Company founded',
     },
     {
       date: '2012',
-      image: 'image2.jpg',
+      image: 'd2.png',
       description: 'First major product launch',
     },
     {
       date: '2015',
-      image: 'image3.jpg',
+      image: 'd3.png',
       description: 'Expansion into international markets',
     },
     // Add more timeline events as needed

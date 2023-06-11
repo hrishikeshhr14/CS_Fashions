@@ -52,6 +52,7 @@ const TestimonialSection = () => {
 
   return (
     <div className="testimonial-section">
+      <h1>Testimonials</h1>
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
           <Testimonial
