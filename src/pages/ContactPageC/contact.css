@@ -3,3 +3,9 @@
     padding-right: 10%;
     background-color:whitesmoke;
 }
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin-left: 5%;
+  }

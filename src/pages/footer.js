@@ -6,7 +6,6 @@ export function FooterContainer() {
   return (
       
       <Footer>
-        <hr></hr>
         <Footer.Wrapper>
           <Footer.Row>
             <Footer.Column>
@@ -24,6 +23,8 @@ export function FooterContainer() {
               <Footer.Link>
                 <Icon className="fab fa-instagram" /> Instagram
               </Footer.Link>
+             
+              
             </Footer.Column>
           </Footer.Row>
         </Footer.Wrapper>

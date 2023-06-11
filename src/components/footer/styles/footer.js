@@ -4,24 +4,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 80px 60px;
   align-items: center;
-  background-color: #ffffff;
-  @media screen and (min-width: 1000px){
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
+  background-color: #202428;
+  @media (max-width: 1000px) {
+    text-align: center;
+    width:100%;
   }
 `;
-// @media screen and (min-width: 1000px)
-// .timeline__image {
-//     width: 100%;
-//     height: 100%;
-//     -o-object-fit: cover;
-//     object-fit: cover;
-//     -o-object-position: center;
-//     object-position: center;
 // export const Container = styled.div`
 //   padding: 80px 60px;
 //   align-items: center;
@@ -74,7 +62,7 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #000000;
+  color: #fff;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
@@ -87,7 +75,7 @@ export const Link = styled.a`
 
 export const Title = styled.p`
   font-size: 30px;
-  color: #000000;
+  color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
 `;
