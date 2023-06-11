@@ -35,7 +35,6 @@ export function FooterContainer() {
         Copyright © 2023 CS.FASHIONS All rights reserved.  |   designed by
         <Footer.Link href="https://www.linkedin.com/in/hrishikesh1412"> hrishikesh</Footer.Link> 
         <br></br>  
-        
       </Footer>
       </Container>  
 
