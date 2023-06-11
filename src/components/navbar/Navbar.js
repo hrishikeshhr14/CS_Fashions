@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function CollapsibleExample() {
   return (
-    <Navbar collapseOnSelect expand="lg"  variant="dark" bg='dark' fixed='top'>
+    <Navbar collapseOnSelect expand="lg"  variant="light" bg='light' fixed='top'>
       <Container>
         <Navbar.Brand  href="/" >C.S.FASHIONS</Navbar.Brand>
         <Navbar.Toggle aria="responsive-navbar-nav" />

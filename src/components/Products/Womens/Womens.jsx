@@ -75,6 +75,8 @@ const Womens = () => {
           />
         ))}
       </Slider>
+      <br></br>
+      <hr></hr>
     </div>
   );
 };

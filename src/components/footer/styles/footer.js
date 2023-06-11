@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 80px 60px;
   align-items: center;
-  background-color: #202428;
+  background-color: #ffffff;
   @media screen and (min-width: 1000px){
     width: 100%;
     height: 100%;
@@ -74,7 +74,7 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #fff;
+  color: #000000;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
@@ -87,7 +87,7 @@ export const Link = styled.a`
 
 export const Title = styled.p`
   font-size: 30px;
-  color: #fff;
+  color: #000000;
   margin-bottom: 40px;
   font-weight: bold;
 `;
