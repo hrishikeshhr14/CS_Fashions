@@ -4,8 +4,9 @@ import Icon from '../components/icons';
 
 export function FooterContainer() {
   return (
-      
+
       <Footer>
+        <br></br>
         <Footer.Wrapper>
           <Footer.Row>
             <Footer.Column>
@@ -23,8 +24,7 @@ export function FooterContainer() {
               <Footer.Link>
                 <Icon className="fab fa-instagram" /> Instagram
               </Footer.Link>
-             
-              
+
             </Footer.Column>
           </Footer.Row>
         </Footer.Wrapper>

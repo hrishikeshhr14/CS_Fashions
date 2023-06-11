@@ -1,7 +1,11 @@
 .addresscolor{
     display:flexbox;
-    padding-right: 10%;
-    background-color:whitesmoke;
+    padding-right: 5%;
+    align-items: center;
+    /* background-color:aliceblue; */
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-bottom: auto;
 }
 * {
     box-sizing: border-box;

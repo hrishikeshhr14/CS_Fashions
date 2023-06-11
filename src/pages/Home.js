@@ -3,7 +3,7 @@
 // import Profilee from "../components/Tester/App";
 // import Profile from "../components/cardss";
 import Timeline from "../components/TL/Timeline";
-
+import GroupExample from "../components/ourproduct";
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
    <TestimonialSection/>
    <Timeline/>
    <br></br>
-
+<GroupExample/>
   
   </div> 
 }

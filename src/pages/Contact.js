@@ -1,6 +1,6 @@
 import Asddress from "./ContactPageC/address/Address"
 import "../pages/ContactPageC/contact.css";
-
+// import "./contact.css";
 export default function Contact() {
   return <div className="addresscolor">
    <br></br> 

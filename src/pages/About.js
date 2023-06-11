@@ -10,7 +10,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>
+    <div className="Aboutme">
       <h1>About Us</h1>
       {/* Your services content goes here */}
       <ImageAndTextExample />
