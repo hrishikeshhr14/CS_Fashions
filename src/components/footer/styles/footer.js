@@ -1,15 +1,27 @@
 import styled from 'styled-components';
 
 
-// export const Container = styled.div`
-//   padding: 80px 60px;
-//   align-items: center;
-//   background-color: #202428;
-//   @media (max-width: 768px) {
-//     text-align: center;
-//     width:100%;
-//   }
-// `;
+export const Container = styled.div`
+  padding: 80px 60px;
+  align-items: center;
+  background-color: #202428;
+  .timeline__image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+`;
+// @media screen and (min-width: 1000px)
+// .timeline__image {
+//     width: 100%;
+//     height: 100%;
+//     -o-object-fit: cover;
+//     object-fit: cover;
+//     -o-object-position: center;
+//     object-position: center;
 // export const Container = styled.div`
 //   padding: 80px 60px;
 //   align-items: center;
@@ -20,18 +32,18 @@ import styled from 'styled-components';
 //     padding: 80px 20px; /* Reduce horizontal padding on mobile */
 //   }
 // `;
-export const Container = styled.div`
-  padding: 80px 60px;
-  align-items: center;
-  background-color: #202428;
-  text-align: center;
+// export const Container = styled.div`
+//   padding: 80px 60px;
+//   align-items: center;
+//   background-color: #202428;
+//   text-align: center;
 
-  @media (max-width: 768px) {
-    padding: 80px 20px;
-    width: calc(100% - 40px); /* Adjust the width to account for padding */
-    margin: 0 auto; /* Center align the container horizontally */
-  }
-`;
+//   @media (max-width: 768px) {
+//     padding: 80px 20px;
+//     width: calc(100% - 40px); /* Adjust the width to account for padding */
+//     margin: 0 auto; /* Center align the container horizontally */
+//   }
+// `;
 
 
 
