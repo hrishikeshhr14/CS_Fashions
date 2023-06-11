@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Footer from '../components/footer';
 import Icon from '../components/icons';
 
 export function FooterContainer() {
   return (
-
+    <Container>
       <Footer>
         <hr></hr>
         <br></br>
@@ -16,7 +17,6 @@ export function FooterContainer() {
               <Footer.Link href="#">Clients</Footer.Link>
               <Footer.Link href="#">Testimonials</Footer.Link>
             </Footer.Column>
-            
             <Footer.Column>
               <Footer.Title>Social</Footer.Title>
               <Footer.Link>
@@ -34,8 +34,10 @@ export function FooterContainer() {
         <hr></hr>
         Copyright © 2023 CS.FASHIONS All rights reserved.  |   designed by
         <Footer.Link href="https://www.linkedin.com/in/hrishikesh1412"> hrishikesh</Footer.Link> 
-        <br></br>    
+        <br></br>  
+        
       </Footer>
+      </Container>  
 
   );
 }

@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  align-items: center;
-  margin: 0r%;
+  align-items:center;
+  margin: 0rem%;
   background-color: #F8F9FA;
   text-align: center;
   width: 100%; /* Set the container width to 100% */
 
   @media (max-width: 1000px) {
     margin: 0rem;
-    padding: 20px; /* Add padding to the container */
+    padding: 0% /* Add padding to the container */
   }
 `;
 

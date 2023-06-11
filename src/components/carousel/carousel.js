@@ -1,6 +1,5 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap' 
-
 import "./carousel.css";
 export default function carousel() {
   return (
@@ -8,7 +7,7 @@ export default function carousel() {
     <Carousel fade className="custom-carousel">
       <Carousel.Item>
         <img
-          className="c-block w-100 h-50"
+          className="c-block w-100 "
           src="C1.png"
           alt="First slide"
         />
