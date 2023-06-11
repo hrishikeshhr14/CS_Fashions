@@ -5,7 +5,7 @@ export const Container = styled.div`
   padding: 80px 60px;
   align-items: center;
   background-color: #202428;
-  .timeline__image {
+  @media screen and (min-width: 1000px){
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
