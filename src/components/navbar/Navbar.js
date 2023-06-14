@@ -38,12 +38,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function CollapsibleExample() {
   const navbarStyle = {
-    backgroundColor: '#6c757d',
+    backgroundColor: '#ced4da',
     color: 'white'
   };
 
   return (
-    <Navbar collapseOnSelect expand="lg" variant="light" bg="light" fixed="top" style={navbarStyle}>
+    <Navbar collapseOnSelect expand="lg"  fixed="top" style={navbarStyle}>
       <Container>
         <Navbar.Brand href="/">C.S.FASHIONS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

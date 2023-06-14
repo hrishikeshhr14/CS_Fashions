@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   align-items:center;
   margin: 0rem%;
-  background-color: #6c757d;
+  background-color: #ced4da;
   text-align: center;
   width: 100%; /* Set the container width to 100% */
 
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   max-width: 768px;
-  margin: 0 auto;
+  margin: 0 ;
 `;
 
 export const Column = styled.div`
@@ -30,7 +30,7 @@ export const Column = styled.div`
 
 export const Row = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 20px;
 
   @media (max-width: 1000px) {

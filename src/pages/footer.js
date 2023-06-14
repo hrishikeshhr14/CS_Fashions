@@ -11,6 +11,7 @@ export function FooterContainer() {
         <br></br>
         <Footer.Wrapper>
           <Footer.Row>
+          
             <Footer.Column>
               <Footer.Title>About Us</Footer.Title>
               <Footer.Link href="">Story</Footer.Link>

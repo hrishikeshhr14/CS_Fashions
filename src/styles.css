@@ -1,9 +1,9 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
-  margin-top: 100px;
+  margin-top: 0%;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 0% 1rem;
 }
 
 .site-title {
