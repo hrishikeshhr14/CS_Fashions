@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   align-items:center;
   margin: 0rem%;
-  background-color: #F8F9FA;
+  background-color: #6c757d;
   text-align: center;
   width: 100%; /* Set the container width to 100% */
 
@@ -45,7 +45,7 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-    color: #cc0000;
+    color: #f8f9fa;
     transition: 200ms ease-in;
   }
 `;

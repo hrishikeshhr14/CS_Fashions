@@ -1,21 +1,24 @@
-// import GridExample from "../components/abcard"
 import ImageAndTextExample from "../components/imagefor"
-// import GroupExample from "../components/ourproduct"
 import Produc from "./products/Product"
-// import App from "../components/Timelime/Timeline";
-
-
 
 import React from 'react';
 
 const About = () => {
+  const pageStyle = {
+    backgroundColor: '#f2f2f2' // Set the desired background color
+  };
+  const headingStyle = {
+    fontFamily: 'Montserrat' // Set the desired font family
+  };
+
+
   return (
-    <div className="Aboutme">
-      <h1>About Us</h1>
-      {/* Your services content goes here */}
+    <div className="Aboutme" style={pageStyle}>
+      <h1 style={headingStyle}>about us</h1>
+  
       <ImageAndTextExample />
       <Produc/>
-      {/* <App/> */}
+    
     </div>
   );
 };

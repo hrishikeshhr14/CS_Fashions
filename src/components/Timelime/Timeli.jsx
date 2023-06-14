@@ -68,41 +68,52 @@ Out sourcing from PARTNERSHIP BASED printing Mills for the past 2 years with Con
      <div className="image-scontainer">
        <img src="d5.png" alt="Example" className="image" />
      </div>
-   </div>
+   </div><hr></hr>
    <div className="scontainer">
       <div className="image-scontainer">
         <img src="d6.png" alt="Example" className="image" />
       </div>
       <div className="text-scontainer">
-        <h1 className="title">Knitting</h1>
-        <p className="sdescription">We are capable of producing 3000 kilograms of fabric per day with our in-house facility. Knitting machines imported from several leading manufacturers all over the world, help us in meeting the requirements of our customers and at the same time provide excellent quality fabric.
+        <h1 className="title">Merchandising Team</h1>
+        <p className="sdescription">Best product, on time delivery and reasonable price is Mantra of our merchandising team. Experienced merchandising team will ensure all the customers requirements like Lab dips, sample approvals, trims approval, testing approvals in Planned time and action schedule
 
 .</p>
       </div>
-    </div>
+    </div><hr></hr>
      <div className="scontainer">
     
      <div className="text-scontainer">
-       <h1 className="title">Sampling Team</h1>
-       <p className="sdescription"> We have good sampling & R & D team, We make research and advise the clients with possibilities and alternate options. We bring the best product from the tech file to final garment. Record keeping is the main function of our sample team ,They will have the complete processing sequence and technical details of a style to ensure the smooth flow on production.</p>
+       <h1 className="title">Quality Team</h1> <p> We Have an quality team with 10 members, ensure the products pass the clients requirement in each stage from yarn to packing. Our check points in each stage.
+<br></br>
+Yarn -
+Grey fabric inspection- Ensure the grey fabric gsm, loop length<br></br>
+Dyed fabric inspection- Ensure the colour matching, gsm, colour fastness , shrinkage & shirality<br></br>
+Cut panel checking- Ensure to eliminate fabric holes, stains etc<br></br>
+Print & embroidery panel checking- ensure the print quality, colours , fastness & hand feel<br></br>
+Pre-production meeting<br></br>
+Size set samples<br></br>
+Pilot run<br></br>
+Online inspection<br></br>
+Pre final inspection<br></br>
+Final inspection<br></br>
+Also we glad to inform- We are the Nominated Inspection service provider for the clients Of “Spiro solutions”, Montreal, Canada</p>
      </div>
      <div className="image-scontainer">
        <img src="d5.png" alt="Example" className="image" />
      </div>
-   </div>
+   </div><hr></hr>
    <div className="scontainer">
       <div className="image-scontainer">
         <img src="d6.png" alt="Example" className="image" />
       </div>
       <div className="text-scontainer">
-        <h1 className="title">Knitting</h1>
-        <p className="sdescription">We are capable of producing 3000 kilograms of fabric per day with our in-house facility. Knitting machines imported from several leading manufacturers all over the world, help us in meeting the requirements of our customers and at the same time provide excellent quality fabric.
-
+        <h1 className="title">Production Facility</h1>
+        <p className="sdescription">We have our own 3 production facility setups in different places within tirupur. Each factory have 50 seats capacity with production capacity of 7500 pcs/ day
 .</p>
       </div>
     </div>
+    <hr></hr>
      <div className="scontainer">
-    
      <div className="text-scontainer">
        <h1 className="title">Sampling Team</h1>
        <p className="sdescription"> We have good sampling & R & D team, We make research and advise the clients with possibilities and alternate options. We bring the best product from the tech file to final garment. Record keeping is the main function of our sample team ,They will have the complete processing sequence and technical details of a style to ensure the smooth flow on production.</p>
