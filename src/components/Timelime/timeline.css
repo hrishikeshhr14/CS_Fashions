@@ -1,4 +1,4 @@
-.container {
+.scontainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +8,7 @@
   background-color: rgb(226, 247, 247);
 }
 
-.image-container {
+.image-scontainer {
   padding: 20px;
 }
 
@@ -19,7 +19,7 @@
   border-radius: 5%;
 }
 
-.text-container {
+.text-scontainer {
   padding: 20px;
   text-align: center;
 }
@@ -35,22 +35,22 @@
 }
 
 @media (min-width: 1000px) {
-  .container {
+  .scontainer {
     flex-direction: row;
   }
 
-  .image-container {
+  .image-scontainer {
     flex: 1;
     max-width: 50%;
   }
 
-  .text-container {
+  .text-scontainer {
     flex: 1;
     padding-left: 20px;
   }
 
-  .text-container2,
-  .image-container {
+  .text-scontainer2,
+  .image-scontainer {
     padding: 40px;
   }
 }

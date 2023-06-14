@@ -21,20 +21,20 @@ import './timeline.css';
 const Timeline = () => {
   return (
     <div className='serv'>
-    <div className="container">
-      <div className="image-container">
+    <div className="scontainer">
+      <div className="image-scontainer">
         <img src="d6.png" alt="Example" className="image" />
       </div>
-      <div className="text-container">
+      <div className="text-scontainer">
         <h1 className="title">Title</h1>
         <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor nisi sed nisi malesuada consectetur. Sed eleifend ante a nunc condimentum tincidunt.</p>
       </div>
     </div>
-     <div className="container">
-     <div className="image-container">
+     <div className="scontainer">
+     <div className="image-scontainer">
        <img src="d5.png" alt="Example" className="image" />
      </div>
-     <div className="text-container">
+     <div className="text-scontainer">
        <h1 className="title">Title</h1>
        <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor nisi sed nisi malesuada consectetur. Sed eleifend ante a nunc condimentum tincidunt.</p>
      </div>
