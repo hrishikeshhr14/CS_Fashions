@@ -21,25 +21,45 @@
 // };
 
 // export default App ;
-import React from 'react';
+// import React from 'react';
 
+// import Timeline from './Timeli';
+
+// const events = [
+//   { date: '2021-01-01', description: 'Event 1' },
+//   { date: '2021-02-01', description: 'Event 2' },
+//   { date: '2021-03-01', description: 'Event 3' },
+//   { date: '2021-01-01', description: 'Event 1' },
+//   { date: '2021-02-01', description: 'Event 2' },
+//   { date: '2021-03-01', description: 'Event 3' },
+//   // Add more events as needed
+// ];
+
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>Timeline Example</h1>
+//       <Timeline events={events} />
+//     </div>
+//   );
+// };
+
+// export default App;
+import React from 'react';
 import Timeline from './Timeli';
 
-const events = [
-  { date: '2021-01-01', description: 'Event 1' },
-  { date: '2021-02-01', description: 'Event 2' },
-  { date: '2021-03-01', description: 'Event 3' },
-  { date: '2021-01-01', description: 'Event 1' },
-  { date: '2021-02-01', description: 'Event 2' },
-  { date: '2021-03-01', description: 'Event 3' },
-  // Add more events as needed
-];
-
 const App = () => {
+  const images = [
+    'd2.png',
+    'd5.png',
+    'd6.png'
+  ];
+
+  const text = 'Lorem ipsum dolor sit amet';
+
   return (
     <div>
-      <h1>Timeline Example</h1>
-      <Timeline events={events} />
+      <Timeline images={images} text={text} />
     </div>
   );
 };
