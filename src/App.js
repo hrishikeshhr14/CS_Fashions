@@ -45,7 +45,7 @@ import { FooterContainer } from "./pages/footer";
 function App() {
   const pageStyle = {
    
-    background: "linear-gradient(to bottom, #6c757d,#f8f9fa,#f8f9fa, #adb5bd,#6c757d)",
+    background: "linear-gradient(to bottom, #e9ecef,#f8f9fa,#f8f9fa,#dee2e6)",
   };
 
   return (

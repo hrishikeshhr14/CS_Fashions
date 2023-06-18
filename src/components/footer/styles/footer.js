@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   align-items:center;
-  margin: 0rem%;
+  margin: 0%rem%;
   text-align: center;
   width: 100%; /* Set the container width to 100% */
-
+  
   @media (max-width: 1000px) {
-    margin: 0rem;
+    margin: 0%rem;
     padding: 0% /* Add padding to the container */
   }
 `;

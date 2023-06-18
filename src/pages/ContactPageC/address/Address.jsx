@@ -8,7 +8,7 @@ export default function Asddress() {
         <div className="col-sm-12 col-md-6">
           <div className="post">
             <div className="postname">
-              <h6>Meet us directly:</h6>
+              <h6>Meet us directly @ :</h6>
               <hr></hr>
               <div className="address">
                 <h6>

@@ -11,7 +11,7 @@ const About = () => {
   };
   return (
     <div>
-      
+      <br></br>
       <h1 style={headingStyle}>About us</h1>
       {/* <ImageAndTextExample /> */}
       <Produc/>

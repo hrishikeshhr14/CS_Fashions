@@ -11,7 +11,9 @@ export function FooterContainer() {
         <br></br>
         <Footer.Wrapper>
           <Footer.Row>
-          
+          <Footer.Column>
+
+          </Footer.Column>
             <Footer.Column>
               <Footer.Title>About Us</Footer.Title>
               <Footer.Link href="">Story</Footer.Link>
@@ -30,6 +32,9 @@ export function FooterContainer() {
                 <Icon className="fab fa-pinterest" /> Pinterest
               </Footer.Link>
             </Footer.Column>
+            <Footer.Column>
+              
+           </Footer.Column>
           </Footer.Row>
         </Footer.Wrapper>
         <hr></hr>

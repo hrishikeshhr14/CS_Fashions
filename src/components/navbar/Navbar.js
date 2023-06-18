@@ -38,7 +38,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function CollapsibleExample() {
   const navbarStyle = {
-    backgroundColor: '#ced4da',
+    backgroundColor: '#dee2e6',
     color: 'white'
   };
 
