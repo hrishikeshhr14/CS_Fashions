@@ -5,7 +5,7 @@ import Icon from '../components/icons';
 
 export function FooterContainer() {
   return (
-    <Container>
+    <Container >
       <Footer>
         <hr></hr>
         <br></br>
@@ -33,7 +33,7 @@ export function FooterContainer() {
               </Footer.Link>
             </Footer.Column>
             <Footer.Column>
-              
+
            </Footer.Column>
           </Footer.Row>
         </Footer.Wrapper>
