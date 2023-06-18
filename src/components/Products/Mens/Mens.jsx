@@ -61,7 +61,7 @@ const Mens = () => {
   }
 
   return (
-    <div className="mens-section"><br></br>
+    <div className="mens-section">
        <h1>MENS</h1>
       <Slider {...settings}>
        
