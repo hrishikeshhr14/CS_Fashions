@@ -40,11 +40,12 @@ import About from "./pages/About";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./pages/Contact";
 import { FooterContainer } from "./pages/footer";
-import "./styles.css";
+
 
 function App() {
   const pageStyle = {
-    backgroundColor: "#ced4da" // Set the desired background color
+   
+    background: "linear-gradient(to bottom, #6c757d,#f8f9fa,#f8f9fa, #adb5bd,#6c757d)",
   };
 
   return (

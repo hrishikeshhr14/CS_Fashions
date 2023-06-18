@@ -22,6 +22,7 @@ const Timeline = () => {
   return (
     <div className='serv'>
     <div className="scontainer">
+      
       <div className="image-scontainer">
         <img src="d6.png" alt="Example" className="image" />
       </div>

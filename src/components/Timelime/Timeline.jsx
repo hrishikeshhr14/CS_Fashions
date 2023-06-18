@@ -55,10 +55,12 @@ const App = () => {
     'd6.png'
   ];
 
+
   const text = 'Lorem ipsum dolor sit amet';
 
   return (
     <div>
+    
       <Timeline images={images} text={text} />
     </div>
   );
