@@ -8,29 +8,29 @@ import 'slick-carousel/slick/slick-theme.css';
 const TestimonialSection = () => {
   const testimonials = [
     {
-      name: 'Hrishikesh',
-      quote: 'This product changed my life!',
-      image: 'latest.jpg'
+      name: 'NOIZE',
+      quote: 'CSFASHIONS IS ONE OF THE BEST PARTNERS',
+      image: 'noize.png'
     },
     {
-      name: 'Jane Smith',
-      quote: 'I highly recommend this service.',
-      image: 'd2.png'
+      name: 'ARAVIND',
+      quote: 'I highly recommend this COMPANY.',
+      image: 'ARAVIND.png'
     },
     {
-      name: 'Jane Smith',
+      name: 'JUST BRANDS',
       quote: 'Its amazing.',
-      image: 'd1.png'
+      image: 'JUSTBRAND.png'
     },
     {
-      name: 'Jane Smith',
+      name: 'CROOKS & CASTLE',
       quote: '"Marvelous ',
-      image: 'd6.png'
+      image: 'CROOKS.png'
     },
     {
-      name: 'Jane Smith',
+      name: 'BLEU BAYOU',
       quote: 'Beautiful',
-      image: 'abo.png'
+      image: 'bay.png'
     },
     // Add more testimonials here
   ];
@@ -52,7 +52,7 @@ const TestimonialSection = () => {
 
   return (
     <div className="testimonial-section">
-      <h1>Testimonials</h1>
+      <h1> OUR CLIENTS</h1>
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
           <Testimonial
